@@ -1,0 +1,43 @@
+name: portfolio
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0-290.4.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.0
+  url_launcher: ^6.3.2
+  smooth_page_indicator: ^1.2.1
+  share_plus: ^12.0.1
+  firebase_core: ^4.2.1
+  font_awesome_flutter: ^10.12.0
+  animate_do: ^4.2.0
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  flutter_staggered_grid_view: ^0.7.0 # Use the latest version
+  flutter_animate: ^4.5.2
+  universal_html: ^2.3.0
+  path_provider: ^2.1.5
+  cloud_firestore: ^6.1.0
+  readmore: ^2.2.0 # Use the latest version
+  confetti: ^0.8.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/pdf/resume.pdf
